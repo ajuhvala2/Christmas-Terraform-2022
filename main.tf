@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  profile ="vala-terraform-user"
+  profile ="vala"
 }
 
 #stores my statefile in S3
