@@ -70,3 +70,11 @@ variable "database_instance_identifier" {
    type        = bool
   
 } */
+
+#application loadbalancer varibles
+variable "ssl_certificate_arn" {
+  default      = "arn:aws:acm:us-east-1:112655855517:certificate/e489634a-6cc9-4d00-8a14-e53292579937"
+   description = "ssl certificate arn"
+   type        = string 
+
+}
